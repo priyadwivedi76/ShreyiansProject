@@ -39,3 +39,28 @@ head,body{
     color: white;
     border-radius: 50%;
 }
+
+.head1{
+    padding: 50px;
+    /* height: 40vh; */
+    width: 100%;
+    /* background-color: red; */
+}
+
+.head1 h1{
+    line-height: 90px;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.head2{
+    width: 100%;
+    /* background-color: red; */
+    height: 150px;
+    margin-top: 30px;
+}
+.head2 p{
+    padding: 20px;
+    font-size: 22px;
+    line-height: 35px;
+}
