@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gilroy' ;
+}
+
+head,body{
+    height: 100%;
+    width:100%;
+}
+
+.main{
+    height: 100%;
+    width:100%;
+    background-color: grey;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: red;
+    
+}
