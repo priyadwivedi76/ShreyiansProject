@@ -38,16 +38,13 @@ html,body{
 }
 
 .bottom{
-    height: 40%;
     width: 100%;
-    /* background-color: yellow; */
+    /* padding: 120px; */
 }
 
 .color{
     border: 1px solid black;
-    /* border-radius: 50px; */
     width: fit-content;
-    /* background-color: blue; */
     padding: 5px 10px;
     display: flex;
     align-items: center;
@@ -72,4 +69,16 @@ html,body{
     width: 20px;
     border-radius: 50%;
     background-color: rgb(136, 85, 18);
+}
+
+.left h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.left p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+    line-height: 25px;
 }
