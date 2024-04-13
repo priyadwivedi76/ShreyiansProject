@@ -13,17 +13,16 @@ html,body{
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 90px;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
     padding-top: 130px;
+    gap:60px;
 }
 .left{
-    width: 48%;
+    width: 50%;
     height: 100%;
-    /* background-color: aquamarine; */
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 .left h1{
@@ -32,14 +31,13 @@ html,body{
     line-height: 140px;
 }
 .right{
-    width: 48%;
-    height: 100%;
-    background-color: rgb(74, 52, 213);
+    width: 33%;
+    height: 95%;
+    /* background-color: rgb(74, 52, 213); */
 }
 
 .bottom{
     width: 100%;
-    /* padding: 120px; */
 }
 
 .color{
@@ -81,4 +79,33 @@ html,body{
     font-weight: 600;
     color: #444;
     line-height: 25px;
+}
+
+.right-top{
+    width: 100%;
+    position: relative;
+    padding: 5px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-top h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.right-top h5{
+    padding:0px 2px;
+    font-size: 15px;
+}
+
+.right-top i{
+    font-size: 10px;
+    /* padding: 2px; */
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
 }
