@@ -18,8 +18,8 @@ html, body{
 }
 
 .nav{
-    height: 9vh;
     width: 100%;
+    height: 11vh;
     /* background-color: red; */
     margin-top: 30px;
     border-top: 2px solid black;
@@ -30,20 +30,52 @@ html, body{
 }
 
 .nav h2{
+    font-size: 25px;
     /* background-color: yellow; */
     height: 100%;
-    width:19.5%;
+    width:20%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-right: 1px solid black;
+    font-weight: 500;
 }
 
 .nav h1{
-    /* background-color: yellow; */
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: -3px;
     height: 100%;
-    width:19.5%;
+    width:20%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.nav h2:nth-last-child(2){
+    width:29%;
+}
+
+.nav h2:nth-last-child(1){
+ width: 10%;
+}
+
+.center{
+    padding: 2.6vw;
+    height: 80%;
+    width:90%;
+    position: relative;
+}
+
+.content{
+    position: relative;
+    height: 90%;
+    padding: 0px 40px;
+    width: 95%;
+}
+
+.content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
