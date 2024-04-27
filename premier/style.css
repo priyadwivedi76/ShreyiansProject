@@ -10,17 +10,16 @@ html, body{
 }
 
 .main{
+    position: relative;
     /* background-color: aqua; */
     height: 100%;
     width: 100%;
-    position: relative;
     padding-top: 1px;
 }
 
 .nav{
     width: 100%;
     height: 11vh;
-    /* background-color: red; */
     margin-top: 30px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -30,8 +29,7 @@ html, body{
 }
 
 .nav h2{
-    font-size: 25px;
-    /* background-color: yellow; */
+    font-size: 20px;
     height: 100%;
     width:20%;
     display: flex;
@@ -61,21 +59,70 @@ html, body{
 }
 
 .center{
-    padding: 2.6vw;
-    height: 80%;
-    width:90%;
-    position: relative;
+    height: 90%;
+    width:100%;
+    /* background-color: red; */
+    padding: 1px;
 }
 
 .content{
     position: relative;
-    height: 90%;
-    padding: 0px 40px;
-    width: 95%;
+    margin: 5vw;
+    height:100%;
+    width:90%;
+    /* background-color: blue; */
 }
-
 .content video{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
+.overlay{
+    height:38%;
+    width: 93.3%;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    padding: 3vw;
+    color: #fff;
+}
+
+.over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+.over1 h1{
+    font-family: "Paytone One", sans-serif;
+    font-size:3.6vw;
+}
+.over1 h2{
+    /* font-family: "Paytone One", sans-serif; */
+    font-size:1vw;
+    padding:2vw 2.4vw;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border: solid 2px #fff;
+}
+
+.over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid  #fff;
+    padding: 0.5vw 0;
+}
+.over2 h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.over2 i{
+    height: 3vw;
+    font-size: 2vw;
+}
+
+
+
