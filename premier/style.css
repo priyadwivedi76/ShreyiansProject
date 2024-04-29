@@ -60,14 +60,15 @@ html, body{
 .center{
     height: 90%;
     width:100%;
-    padding: 1px;
+    padding:5px;
+    margin: 20px;
 }
 
 .content{
     position: relative;
-    margin: 5vw;
+    margin: 10px;
     height:100%;
-    width:90%;
+    width:98%;
 }
 .content video{
     height: 100%;
@@ -118,6 +119,35 @@ html, body{
     height: 3vw;
     font-size: 2vw;
 }
+.scroll{
+    height:45vh;
+    width: 100%;
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+.container{
+    padding: 2vw;
+    display: inline-block;
+    height: 100%;
+    width: 130%;
+    /* background-color: blue; */
+}
+.scroll img{
+    /* display: none; */
+    height: 85%;
+    width: 15%;
+    margin: 1vw;
+    padding: 2px;
+    border-radius: 50%;
+     /* object-position: top; */
+    object-fit: cover;
+}
+
+
+
 
 
 
