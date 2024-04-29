@@ -124,26 +124,38 @@ html, body{
     width: 100%;
     /* background-color: red; */
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
 
 }
 .container{
-    padding: 2vw;
+    padding: 2vw 0;
     display: inline-block;
     height: 100%;
-    width: 130%;
-    /* background-color: blue; */
+    width: 110%;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
 }
 .scroll img{
     /* display: none; */
-    height: 85%;
+    height:80%;
     width: 15%;
     margin: 1vw;
     padding: 2px;
     border-radius: 50%;
      /* object-position: top; */
     object-fit: cover;
+}
+
+@keyframes anime{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
 }
 
 
