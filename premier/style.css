@@ -194,8 +194,54 @@ html, body{
 
 .page2{
     height: 100%;
-    width: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
 }
+
+.page2-part1{
+    height: 100%;
+    width: 45%;
+    background-image: url(https://images.unsplash.com/photo-1618355281911-84e6ec751d84?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-size: cover;
+    background-position: center;
+}
+
+.page2-part2{
+    height: 100%;
+    width: 45%;
+}
+
+.page2-part2 img{
+    width: 100%;
+    object-fit: cover;
+    height: 60%;
+}
+
+.page2-part2 .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text h3{
+    font-size: 23px;
+    padding-top:10px;
+    height: 10vw;
+    width: 15vw;
+    line-height:25px;
+}
+
+.text p{
+    font-size: 13px;
+    height: 8vw;
+    width: 20vw;
+}
+
+    
+            
 
 
 
